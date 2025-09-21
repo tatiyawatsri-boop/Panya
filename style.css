@@ -1,0 +1,346 @@
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.header,
+.sidebar,
+.main,
+.footer {
+    padding: 10px;
+}
+
+.header{
+    background-color: #272426;
+    flex: 1 100%;
+    height: 50px;
+    text-align: left;
+}
+.header_logo{
+    margin-left: 25px;
+}
+.cc{
+    margin-top: -50px;
+    display: flex;
+    float: right;
+    
+}
+.dd{
+    margin-right: 55px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+
+.main{
+    flex: 3;
+    height: 560px;
+    background-image: url(img/b4b90bd3b9b00bc63e9e44a30e60127c.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.main_abi{
+    background-color: rgb(38, 35, 40);
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 150px;
+    margin-top: 27px;
+    margin-left: 220px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: left;
+    border-radius: 5px;
+
+}
+.main_abi_01{
+    background-color: rgb(38, 35, 40);
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 500px;
+    margin-top: 27px;
+    margin-left: 120px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: left;
+    border-radius: 5px;
+    text-align: center;
+
+}
+.main_abi_per_01{
+    display: flex;
+    width: 90%;
+    height: 3000px;
+    margin-left: 45px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: left;
+    border-radius: 5px;
+    background-image: url("img/546614505_122173471784527030_2419897939963350775_n.jpg") ;
+    background-size: cover;
+    background-position: center;
+}
+.main_abi_per_02{
+    display: flex;
+    width: 90%;
+    height: 3000px;
+    margin-left: 45px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: left;
+    border-radius: 5px;
+    background-image: url("img/494383704_122155592120527030_5250012669872225933_n.jpg") ;
+    background-size: cover;
+    background-position: center;
+}
+
+.contact_ig{
+    display: flex;
+    margin-left: 157px;
+    margin-top: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: left;
+    border-radius: 5px;
+    background-image: url("img/contact_bg_01.png") ;
+    background-position: bottom;
+    background-size: cover;
+    width: 800px;
+    height: 50%;
+}
+.contact_box_text{
+    width: 800px;
+    height: 23%;
+    background-color: rgb(26, 26, 26); 
+    margin-top: -19px;
+    margin-left: 156.8px;
+}
+.about_box_text{
+    background-color: rgb(26, 26, 26); 
+    width: 80%;
+    height:550px;
+    border-radius:2%;
+    margin-left: 10%;
+}
+.about_text{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 18px;
+    margin-left: 45px;
+}
+.main_my_skill_01{
+    display: flex;
+    width:80%;
+    height: 90%;
+    margin-left: 85px;
+    margin-top: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: left;
+    border-radius: 5px;
+    background-image: url("img/31.png") ;
+    background-size: cover;
+    background-position: center;
+}
+.main_my_skill_02{
+    display: flex;
+    width:80%;
+    height: 90%;
+    margin-left: 85px;
+    margin-top: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: left;
+    border-radius: 5px;
+    background-image: url("img/S__311298_0.jpg") ;
+    background-size: cover;
+    background-position: center;
+}
+.main_my_skill_03{
+    display: flex;
+    width:80%;
+    height: 90%;
+    margin-left: 85px;
+    margin-top: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: left;
+    border-radius: 5px;
+    background-image: url("img/S__311300_0.jpg") ;
+    background-size: cover;
+    background-position: center;
+}
+.main_my_skill_04{
+    display: flex;
+    margin-left: 85px;
+    margin-top: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: left;
+    border-radius: 5px;
+    background-image: url("img/S__311301_0.jpg") ;
+    background-size: cover;
+    background-position: center;
+    width:80%;
+    height: 90%;
+}
+
+.my_little_world_01{
+    display: flex;
+    margin-left: 220px;
+    margin-top: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: left;
+    border-radius: 5px;
+    background-image: url("img/My_Little_World_01.png") ;
+    background-position: bottom;
+    background-size: cover;
+    width: 50%;
+    height: 70%;
+}
+.my_little_world_02{
+    display: flex;
+    margin-left: 220px;
+    margin-top: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: left;
+    border-radius: 5px;
+    background-image: url("img/My_Little_World_02.jpg") ;
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 70%;
+}
+.my_little_world_03{
+    display: flex;
+    margin-left: 220px;
+    margin-top: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: left;
+    border-radius: 5px;
+    background-image: url("img/My_Little_World_03.jpg") ;
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 70%;
+}
+.my_little_world_04{
+    display: flex;
+    margin-left: 220px;
+    margin-top: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: left;
+    border-radius: 5px;
+    background-image: url("img/My_Little_World_04.png") ;
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 70%;
+}
+.text_per{
+    color: #ffffff;
+    text-align: center;
+}
+.text_main_abi{
+    color: #ffffff;
+    text-align: center;
+    margin-top:60px;
+}
+.text_my_lit{
+    color: #ffffff;
+    text-align: center;
+    margin-top: -80px;
+}
+.contact_text{
+    color: #ffffff;
+    text-align: left;
+    margin-left: 270px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -6px;
+}
+.button_per_right{
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 1022px;
+    margin-top: -270px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.button_per_left{
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: -279px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.button_per_left_skill{
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: -45px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.button_per_left_skill_04{
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: -265px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+.sidebar{
+    background-image: url(img/962755046cb0362700c3d719c4e87ca7.jpg);
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+}
+.sidebar_profile {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    margin-top: 15%;
+    background-image: url("img/49ec05e0-f472-4f9b-b302-7922110c3a7c.jpg") ;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.sidebar_personal{
+    margin-top: 5%;
+}
+
+
+.footer{
+    background-color: #272426;
+    flex: 1 100%;
+    height: 50px;
+    text-align: right ;
+}
+
